@@ -1,4 +1,4 @@
-/** item 8: Prevent exceptions from leaving destructors. */
+/** Item 8: Prevent exceptions from leaving destructors. */
 
 #include <iostream>
 #include <exception>
