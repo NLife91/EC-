@@ -19,17 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\item01.cpp" />
-    <ClCompile Include="src\item02.cpp" />
-    <ClCompile Include="src\item03.cpp" />
-    <ClCompile Include="src\item04.cpp" />
-    <ClCompile Include="src\item05.cpp" />
-    <ClCompile Include="src\item06.cpp" />
-    <ClCompile Include="src\item07.cpp" />
-    <ClCompile Include="src\item08.cpp" />
-    <ClCompile Include="src\item09.cpp" />
-    <ClCompile Include="src\item10.cpp" />
-    <ClCompile Include="src\item11.cpp" />
+    <ClCompile Include="src\executor\itemExecutor.cpp" />
+    <ClCompile Include="src\items\item01.cpp" />
+    <ClCompile Include="src\items\item02.cpp" />
+    <ClCompile Include="src\items\item03.cpp" />
+    <ClCompile Include="src\items\item04.cpp" />
+    <ClCompile Include="src\items\item05.cpp" />
+    <ClCompile Include="src\items\item06.cpp" />
+    <ClCompile Include="src\items\item07.cpp" />
+    <ClCompile Include="src\items\item08.cpp" />
+    <ClCompile Include="src\items\item09.cpp" />
+    <ClCompile Include="src\items\item10.cpp" />
+    <ClCompile Include="src\items\item11.cpp" />
+    <ClCompile Include="src\items\item12.cpp" />
+    <ClCompile Include="src\items\itemDB.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\executor\itemExecutor.h" />
+    <ClInclude Include="src\items\item.h" />
+    <ClInclude Include="src\items\itemDB.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -82,7 +91,18 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\GitHub\EC++\EC++\src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\GitHub\EC++\EC++\src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\GitHub\EC++\EC++\src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\GitHub\EC++\EC++\src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>

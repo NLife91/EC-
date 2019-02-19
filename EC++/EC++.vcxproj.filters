@@ -13,40 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\items">
+      <UniqueIdentifier>{1cb7edf4-e6f7-4a00-97dc-398880e16dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\executor">
+      <UniqueIdentifier>{e20613c9-0983-4c24-a238-8dc26e703392}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\item03.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\item04.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item09.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item01.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item10.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item02.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item11.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item05.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item12.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item06.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item01.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item07.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item02.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item08.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item03.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item09.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item04.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item10.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item05.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="src\item11.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\items\item06.cpp">
+      <Filter>Source Files\items</Filter>
     </ClCompile>
+    <ClCompile Include="src\items\item07.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="src\items\item08.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="src\executor\itemExecutor.cpp">
+      <Filter>Source Files\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\items\itemDB.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\executor\itemExecutor.h">
+      <Filter>Source Files\executor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\items\item.h">
+      <Filter>Source Files\items</Filter>
+    </ClInclude>
+    <ClInclude Include="src\items\itemDB.h">
+      <Filter>Source Files\items</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

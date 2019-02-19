@@ -4,6 +4,16 @@
 #include <iostream>
 #include <list>
 
+#include "item.h"
+
+class Item01 : public Item
+{
+	virtual void itemExe() override
+	{
+
+	}
+};
+
 class TempClass
 {
 public:
