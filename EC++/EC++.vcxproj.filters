@@ -66,6 +66,12 @@
     <ClCompile Include="src\items\itemDB.cpp">
       <Filter>Source Files\items</Filter>
     </ClCompile>
+    <ClCompile Include="src\items\item13.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="src\items\item14.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\executor\itemExecutor.h">
