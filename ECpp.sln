@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EC++", "EC++\EC++.vcxproj", "{392A9C4F-8DA1-4C12-B5A5-6155188FB257}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ECpp", "ECpp\ECpp.vcxproj", "{392A9C4F-8DA1-4C12-B5A5-6155188FB257}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
