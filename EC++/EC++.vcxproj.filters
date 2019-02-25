@@ -72,6 +72,15 @@
     <ClCompile Include="src\items\item14.cpp">
       <Filter>Source Files\items</Filter>
     </ClCompile>
+    <ClCompile Include="src\items\item16.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="src\items\item15.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="src\items\item17.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\executor\itemExecutor.h">
