@@ -118,6 +118,3 @@ std::shared_ptr<Investment> createInvestment()
 
 	return retVal;
 }
-
-
-
