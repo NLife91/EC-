@@ -45,6 +45,7 @@
     <ClCompile Include="src\items\item23.cpp" />
     <ClCompile Include="src\items\item24.cpp" />
     <ClCompile Include="src\items\item25.cpp" />
+    <ClCompile Include="src\items\item26.cpp" />
     <ClCompile Include="src\items\itemDB.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
