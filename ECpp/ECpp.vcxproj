@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item28.cpp" />
+    <ClCompile Include="item29.cpp" />
     <ClCompile Include="src\executor\itemExecutor.cpp" />
     <ClCompile Include="src\items\item01.cpp" />
     <ClCompile Include="src\items\item02.cpp" />
