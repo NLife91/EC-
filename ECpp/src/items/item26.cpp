@@ -53,3 +53,8 @@ void loop2()
 // 2 dealing with a performance-sensitive part
 // use loop1
 // or default loop2
+
+/** Things to Remember
+	 * Postpone variable definitions as long as possible. It increases program clarity and improves program
+       efficiency.
+*/

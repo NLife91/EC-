@@ -113,3 +113,13 @@ Directory2& ftempDir()
 	static Directory2 td; // local static
 	return td;
 }
+
+/** Things to Remember
+	 * Manually initialize objects of built-in type, because C++ only sometimes initializes them itself.
+       
+	 * In a constructor, prefer use of the member initialization list to assignment inside the body of the constructor.
+       List data members in the initialization list in the same order they're declared in the class.
+       
+	 * Avoid initialization order problems across translation units by replacing non-local static objects with local
+       static objects.
+*/

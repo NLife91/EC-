@@ -31,3 +31,12 @@ void f()
 	std::auto_ptr<std::string> aps(new std::string[10]); 
 	// auto_ptr call delete not delete [].
 }
+
+/** Things to Remember
+	 * To prevent resource leaks, use RAII objects that acquire resources in their constructors and release
+	   them in their destructors.
+
+	 * Two commonly useful RAII classes are TR1::shared_ptr and auto_ptr.
+	   tr1::shared_ptr is usually the better choice, because its behavior when copied is intuitive.
+	   Copying an auto_ptr sets it to null.
+*/

@@ -63,3 +63,11 @@ void implicitConversion()
 
 	changeFontSize(f, newFontSize);
 }
+
+/** Things to Remember
+	 * APIs often require access to raw resources, so each RAII class should offer a way to get at the resource it
+       manages.
+
+     * Access may be via explicit conversion or implicit conversion. In general, explicit conversion is safer, but
+       implicit conversion is more convenient for clients.
+*/

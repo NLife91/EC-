@@ -56,3 +56,8 @@ namespace WebBrowserStuff
 {
 	// cookie-related convenience functions.
 }
+
+/** Things to Remember
+	 * Prefer non-member non-friend functions to member functions. Doing so increases encapsulation,
+       packaging flexibility, and functional extensibility.
+*/

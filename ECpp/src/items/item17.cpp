@@ -22,3 +22,8 @@ void leakResource()
 
 	processWidget(pw, priority());
 }
+
+/** Things to Remember
+	 * Store newed objects in smart pointers in standalone statements. Failure to do this can lead to subtle
+       resource leaks when exceptions are thrown.
+*/

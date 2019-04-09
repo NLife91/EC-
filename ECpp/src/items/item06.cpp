@@ -85,3 +85,9 @@ void prevent()
 	//HomeForSale3 h33(h31);
 	//h31 = h32;
 }
+
+/** Things to Remember
+	 * To disallow functionality automatically provided by compilers, declare the corresponding member
+       functions private and give no implementations. Using a base class like Uncopyable is one way
+       to do this.
+*/

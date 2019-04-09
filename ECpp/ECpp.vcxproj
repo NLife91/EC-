@@ -19,9 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="item28.cpp" />
-    <ClCompile Include="item29.cpp" />
-    <ClCompile Include="item30.cpp" />
     <ClCompile Include="src\executor\itemExecutor.cpp" />
     <ClCompile Include="src\items\item01.cpp" />
     <ClCompile Include="src\items\item02.cpp" />
@@ -50,6 +47,9 @@
     <ClCompile Include="src\items\item25.cpp" />
     <ClCompile Include="src\items\item26.cpp" />
     <ClCompile Include="src\items\item27.cpp" />
+    <ClCompile Include="src\items\item28.cpp" />
+    <ClCompile Include="src\items\item29.cpp" />
+    <ClCompile Include="src\items\item30.cpp" />
     <ClCompile Include="src\items\itemDB.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>

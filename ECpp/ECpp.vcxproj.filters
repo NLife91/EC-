@@ -111,13 +111,13 @@
     <ClCompile Include="src\items\item27.cpp">
       <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="item28.cpp">
+    <ClCompile Include="src\items\item29.cpp">
       <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="item29.cpp">
+    <ClCompile Include="src\items\item30.cpp">
       <Filter>Source Files\items</Filter>
     </ClCompile>
-    <ClCompile Include="item30.cpp">
+    <ClCompile Include="src\items\item28.cpp">
       <Filter>Source Files\items</Filter>
     </ClCompile>
   </ItemGroup>

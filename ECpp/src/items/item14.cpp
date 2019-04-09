@@ -42,3 +42,11 @@ void transfer()
 
 	pLock1 = pLock2;					 // pLock1 -> object  | pLock2 -> nullptr.
 }
+
+/** Things to Remember
+	 * Copying an RAII object entails copying the resource it manages, so the copying behavior of the
+       resource determines the copying behavior of the RAII object.
+       
+	 * Common RAII class copying behaviors are disallowing copying and performing reference counting,
+       but other behaviors are possible.
+*/

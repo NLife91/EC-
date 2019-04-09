@@ -118,3 +118,17 @@ std::shared_ptr<Investment> createInvestment()
 
 	return retVal;
 }
+
+/** Things to Remember
+	 * Good interfaces are easy to use correctly and hard to use incorrectly. Your should strive for these
+       characteristics in all your interfaces.
+     
+	 * Ways to facilitate correct use include consistency in interfaces and behavioral compatibility with
+       built-in types.
+     
+	 * Ways to prevent errors include creating new types, restricting operations on types, constraining
+       object values, and eliminating client resource management responsibilities.
+       
+	 * TR1::shared_ptr supports custom deleters. This prevents the cross-DLL problem, can be used
+       to automatically unlock mutexes (see Item 14), etc.
+*/

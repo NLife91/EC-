@@ -86,3 +86,11 @@ class Widget4
 private:
 	Bitmap* pb;
 };
+
+/** Things to Remember
+	 * Make sure operator= is well-behaved when an object is assigned to itself. Techniques include comparing
+       addresses of source and target objects, careful statement ordering, and copy-and-swap.
+       
+	 * Make sure that any function operating on more than one object behaves correctly if two or more of the objects are
+       the same.
+*/

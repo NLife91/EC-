@@ -57,3 +57,8 @@ void Test2()
 	result = oneFourth * 2; // fine.
 	result = 2 * oneFourth; // fine.
 }
+
+/** Things to Remember
+	 * If you need type conversions on all parameters to a function (including the one pointed to by the
+       this pointer), the function must be a non-member.
+*/

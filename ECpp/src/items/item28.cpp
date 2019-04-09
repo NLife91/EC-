@@ -89,3 +89,9 @@ void dangling()
 	// 3. At the end of the statement, temp is deleted.
 	// 4. pUpperLeft has a wrong address.
 }
+
+/** Things to Remember
+     * Avoid returning handles (references, pointers, or iterators) to object internals. It increases
+       encapsulation, helps const member functions act const, and minimizes the creation of dangling
+       handles.
+*/

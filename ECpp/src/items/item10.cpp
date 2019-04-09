@@ -25,3 +25,7 @@ public:
 		return *this;
 	}
 };
+
+/** Things to Remember
+	 * Have assignment operators return a reference to *this.
+*/

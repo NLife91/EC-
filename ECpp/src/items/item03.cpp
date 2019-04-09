@@ -119,3 +119,13 @@ public:
 private:
 	std::string text;
 };
+
+/** Things to Remember
+	 * Declaring something const helps compilers detect usage errors. const can be applied to objects at
+       any scope, to function parameters and return types, and to member functions as a whole.
+       
+	 * Compilers enforce bitwise constness, but you should program using conceptual constness.
+       
+	 * When const and non-const member functions have essentially identical implementations, code
+       duplication can be avoided by having the non-const version call the const version.
+*/

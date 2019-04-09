@@ -34,4 +34,9 @@ void depending()
 /** inline function is impossible to provide binary upgrades. must recomplie.*/
 
 /** Things to Remember 
-     * Limit most inline to small, frequently called functions. This fac */
+     * Limit most inlining to small, frequently called functions. This facilitates debugging and 
+	   binary upgradability, minimizes potential code bloat, and maximizes the chances of greater 
+	   program speed. 
+	  
+	 * Don't declare function templates inline just because they appear in header files.
+*/

@@ -51,3 +51,8 @@ void refuse()
 
 	// p = s; Compiler refuse. because reference and const value.
 }
+
+/** Things to Remember
+	 * Compilers may implicitly generate a class's default constructor, copy constructor, copy assignment operator,
+       and destructor.
+*/

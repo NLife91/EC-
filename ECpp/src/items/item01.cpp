@@ -50,3 +50,7 @@ void item01()
 	std::list<int> tempList{ 4 };
 	std::cout << "Hello World! " << tempList.front() << std::endl;
 }
+
+/** Things to Remember
+	 * Rules for effective C++ programming vary, depending on the part of C++ you are using.
+*/

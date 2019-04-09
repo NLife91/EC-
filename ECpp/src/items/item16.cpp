@@ -10,3 +10,9 @@ void corresponding()
 	delete stringPtr1; // an Object
 	delete[] stringPtr2; // Array of Objects
 }
+
+/** Things to Remember
+	 * If you use [] in a new expression, you must use [] in the corresponding delete expression. If
+       you don't use [] in a new expression, you mustn't use [] in the corresponding delete
+       expression.
+*/

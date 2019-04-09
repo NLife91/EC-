@@ -110,3 +110,17 @@ void doSomething(T& obj1, T& obj2)
 /** 3. if calling swap, be sure to include a using. and call swap without any namespace. */
 
 /** member swap function never throw exceptions. */
+
+/** Things to Remember
+	 * Provide a swap member function when std::swap would be inefficient for your type. Make sure
+       your swap doesn't throw exceptions.
+   
+     * If you offer a member swap, also offer a non-member swap that calls the member. For classes
+       (not templates), specialize std::swap, too.
+ 
+     * When calling swap, employ a using declaration for std::swap, then call swap without
+       namespace qualification.
+
+     * It's fine to totally specialize std templates for user-defined types, but never try to add something
+       completely new to std.
+*/

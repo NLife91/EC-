@@ -72,3 +72,11 @@ private:
 // protected data memebers are similar.
 // If public or protected data members are changed,
 // an unknowably large amount of client code is broken.
+
+/** Things to Remember
+	 * Declare data members private. It gives clients syntactically uniform access to data, affords fine-
+       grained access control, allows invariants to be enforced, and offers class authors implementation
+       flexibility.
+
+	 * protected is no more encapsulated than public.
+*/

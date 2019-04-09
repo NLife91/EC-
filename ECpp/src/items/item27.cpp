@@ -127,3 +127,14 @@ void good2()
 		(*iter)->blink();
 	}
 }
+
+/** Things to Remember
+	 * Avoid casts whenever practical, especially dynamic_casts in performance-sensitive code. If a
+       design requires casting, try to develop a cast-free alternative.
+
+	 * When casting is necessary, try to hide it inside a function. Clients can then call the function instead of
+       putting casts in their own code.
+
+	 * Prefer C++-style casts to old-style casts. They are easier to see, and they are more specific about what
+       they do.
+*/
