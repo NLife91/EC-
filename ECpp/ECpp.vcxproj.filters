@@ -120,6 +120,9 @@
     <ClCompile Include="src\items\item28.cpp">
       <Filter>Source Files\items</Filter>
     </ClCompile>
+    <ClCompile Include="src\items\item31.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\executor\itemExecutor.h">
